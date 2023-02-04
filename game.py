@@ -10,11 +10,11 @@ def mainMenu(): # Главное меню
   elif choice == 3:
     print('\nДо свидания!')
   else:
-    print('Ошибка ввода. Необходимо ввести 1 или 2.')
+    print('Ошибка ввода. Необходимо ввести цифру 1 или 2.')
     mainMenu()
 
 def loop_RPS():
-  choice = input('\nХочешь сыграть еще раз? ')
+  choice = input('\nСыграем еще раз? ')
   if choice == 'Да' or choice == 'да':
     rock_paper_scissors()
   else:
