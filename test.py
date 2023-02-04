@@ -1,3 +1,6 @@
+print('Делаем новый тест!')
+print('Как думаете, сколько раз можно поделить 1 на 2?')
+
 number = 1
 count = 0
 save_number = number
