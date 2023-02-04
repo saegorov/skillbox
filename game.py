@@ -8,13 +8,13 @@ def mainMenu(): # Главное меню
   elif choice == 2:
     guess_the_number()
   elif choice == 3:
-    print('\nДо свидания!')
+    print('\nДо свидания! ')
   else:
     print('Ошибка ввода. Необходимо ввести цифру 1 или 2.')
     mainMenu()
 
 def loop_RPS():
-  choice = input('\nСыграем еще раз? ')
+  choice = input('\nХочешь сыграть в игру еще раз? ')
   if choice == 'Да' or choice == 'да':
     rock_paper_scissors()
   else:
@@ -27,7 +27,7 @@ def loop_GtN():
     mainMenu()
 
 def rock_paper_scissors(): #"Камень, ножницы, бумага"
-  print('\nПривет! \nДавай сыграем в игру "Камень, ножницы, бумага"!')
+  print('\nПривет! \nСыграем в игру "Камень, ножницы, бумага"!')
   comp_choice = random.randint(1, 3)
   user_choice = int(input('Введите что вы выбираете \n1. Камень \n2. Ножницы \n3. Бумага \nВаш выбор: '))
   if user_choice == 1:
